@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00ffcc, #ccff00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+}
+
+input,
+button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Login Page Styles */
+.login-container {
+    width: 300px;
+}
+
+/* Register Page Styles */
+.register-container {
+    width: 400px;
+}
+
+/* Menu Page Styles */
+.menu-container {
+    width: 500px;
+}
+
+/* Add Project Page Styles */
+.add-project-container {
+    width: 500px;
+}
+
+/* View Projects Page Styles */
+.view-projects-container {
+    width: 800px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #444;
+}
+
+/* Project Details Page Styles */
+.project-details-container {
+    width: 600px;
+}
+
+/* Select Project Page Styles */
+.select-project-container {
+    width: 600px;
+}
+
+/* Delete Project Page Styles */
+.delete-project-container {
+    width: 500px;
+}
