@@ -26,7 +26,7 @@ Este é um sistema de pontos eletrônicos desenvolvido em PHP com MySQL, projeta
 ## Instalação
 1. **Clone o repositório**:
     ```sh
-    git clone https://github.com/seu-usuario/sistema-de-pontos-eletronicos.git
+    git clone https://github.com/DaviPereiraL/Ponto-Eletronico---php.git
     ```
 2. **Navegue até o diretório do projeto**:
     ```sh
